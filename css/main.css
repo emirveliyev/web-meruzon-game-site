@@ -20,15 +20,22 @@ img {
     max-width: 100%;
 }
 
+/* ГРАДИЕНТ */
+
 .wrapper {
     background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(74, 40, 0, 1) 100%);
     width: 100%;
 }
 
+
+/* ОТСТУПЫ */
+
 .container {
     width: 1400px;
     margin: 0 auto;
 }
+
+/*ШАПКА*/
 
 header {
     padding: 50px 0;
@@ -88,6 +95,8 @@ header nav ul li.btn a:hover {
     background: #a02604;
 }
 
+/*HERO - СЕКЦИЯ*/
+
 .hero {
     padding-bottom: 100px;
     position: relative;
@@ -135,4 +144,81 @@ header nav ul li.btn a:hover {
     position: absolute;
     top: -150px;
     right: 0;
+}
+
+/* 2. ТРЕНДОВЫЕ ИГРЫ */
+
+.trending {
+    padding-top: 20px;
+}
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .see-all {
+    color: #FFF;
+    background: #25211D;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.trending .see-all {
+    transform: scale(1.1);
+}
+
+.trending .games {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.trending .games span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trending .games span img {
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+}
+
+/* ТЕКСТ ПОСЛЕ ТРЕНДОВЫХ ИГР */
+
+.big-text {
+    padding: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 800px;
+}
+
+/* БАННЕР С ЧЕЛОВЕКОМ ПАУКОМ */
+
+.banner {
+    padding: 80px 0;
+}
+
+.banner h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner p {
+    line-height: 170%;
+    margin-bottom: 30px;
+    width: 550px;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 30px;
 }
